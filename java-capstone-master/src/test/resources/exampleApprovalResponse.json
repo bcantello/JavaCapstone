@@ -1,0 +1,40 @@
+{
+  "transactionId": 1217,
+  "uri": "https://api.payjunctionlabs.com/transactions/1217",
+  "terminalId": 11807,
+  "action": "CHARGE",
+  "amountBase": "3.00",
+  "amountTotal": "3.00",
+  "method": "CONTACTLESS",
+  "status": "CAPTURE",
+  "signatureStatus": "NOT_REQUIRED_PIN",
+  "created": "2019-10-02T22:13:25Z",
+  "lastModified": "2019-10-02T22:13:24Z",
+  "response": {
+    "approved": true,
+    "code": "00",
+    "message": "Approved",
+    "processor": {
+      "authorized": true,
+      "approvalCode": "PJ20AP",
+      "avs": {
+        "status": "NOT_REQUESTED"
+      },
+      "cvv": {
+        "status": "NOT_REQUESTED"
+      }
+    }
+  },
+  "settlement": {
+    "settled": false
+  },
+  "vault": {
+    "type": "CARD",
+    "accountType": "MASTERCARD",
+    "lastFour": "5100"
+  },
+  "billing": {
+    "firstName": "TEST",
+    "lastName": "CARD"
+  }
+}
